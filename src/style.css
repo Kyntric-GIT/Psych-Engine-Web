@@ -1,0 +1,99 @@
+
+:root {
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  background: #090914;
+  font-synthesis: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+  font: inherit;
+}
+
+button:focus-visible {
+  outline: 2px solid #b58aff;
+  outline-offset: 4px;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 28px;
+  background: #151527;
+  border-bottom: 1px solid #34345a;
+}
+
+.logo {
+  color: #b58aff;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.main-content {
+  width: min(1000px, 94%);
+  margin: auto;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.menu-panel {
+  padding: 35px;
+  background: #151527;
+  border: 1px solid #34345a;
+  border-radius: 16px;
+}
+
+.menu-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.menu-button {
+  min-width: 160px;
+  padding: 14px 20px;
+  border: 1px solid #555080;
+  border-radius: 9px;
+  background: #282442;
+  color: white;
+  transition: 0.2s;
+}
+
+.menu-button:hover {
+  background: #704bb0;
+  transform: translateY(-2px);
+}
+
+.status {
+  color: #76e6a0;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  color: #8888a8;
+}
